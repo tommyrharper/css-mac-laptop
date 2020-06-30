@@ -17,18 +17,21 @@ html, body {
 }
 
 .ultimate-container {
+  padding: 10px;
   position: relative;
-  background-color: red;
+  /* background-color: red; */
+  width: 800px;
+  height: 1000px
 }
 
 .container-keyboard {
-  top: 480px;
+  top: 333px;
   position: absolute;
-  transform: perspective(700px) rotateX(40deg);
+  transform: perspective(1000px) rotateX(40deg);
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 854px;
+  width: 840px;
   height: 598px;
   /* border: 2px solid #FDDBC9; */
   border: 1px solid #727379;
@@ -44,11 +47,23 @@ html, body {
   flex-direction: column;
   align-items: center;
   width: 700px;
-  height: 598px;
+  height: 450px;
   /* border: 2px solid #FDDBC9; */
   border: 1px solid #727379;
   border-radius: 35px;
   background: #FDDBC9;
+}
+
+.key-container-screen {
+  display: grid;
+  grid-template-rows: repeat(7, auto);
+  border: 1px solid #A87961;
+  box-shadow: inset 0px 2px 2px 0px #A87961, inset 2px 0px 2px 0px #A87961, inset -2px 2px 2px 0px #A87961, inset 0px -2px 2px 0px #A87961 ;
+  width: 650px;
+  height: 400px;
+  margin: 3.5% 0 0 0;
+  border-radius: 12px;
+  background-color: black;
 }
 
 .key-container {
@@ -60,18 +75,6 @@ html, body {
   height: 330px;
   margin: 3.5% 0 0 0;
   border-radius: 12px;
-}
-
-.key-container-screen {
-  display: grid;
-  grid-template-rows: repeat(7, auto);
-  border: 1px solid #A87961;
-  box-shadow: inset 0px 2px 2px 0px #A87961, inset 2px 0px 2px 0px #A87961, inset -2px 2px 2px 0px #A87961, inset 0px -2px 2px 0px #A87961 ;
-  width: 650px;
-  height: 530px;
-  margin: 3.5% 0 0 0;
-  border-radius: 12px;
-  background-color: black;
 }
 
 .row1 {
