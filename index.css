@@ -3,6 +3,27 @@
 /* $rose-gold: #FDDBC9;
 $key-colour: #202124; */
 
+button {
+  display:block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(72, 119, 189);
+}
+
+button:hover {
+  background-color: blue;
+}
+
+.btn-container {
+  padding: 20px;
+  height:190px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
