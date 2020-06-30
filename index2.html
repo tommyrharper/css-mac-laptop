@@ -9,6 +9,7 @@
 body {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -18,19 +19,27 @@ div {
   height: 300px;
   width: 200px;
   /* transform: perspective(200px) rotateX(20deg); */
-  transform: perspective(300px) rotateX(50deg);
+  /* transform: perspective(300px) rotateX(50deg); */
   /* transform: 
   translateX(0px)
   translateZ(100px)
-  translateY(50px); */
+  translateY(70px); */
 }
+
+.keyboard {
+  position: absolute;
+  transform: perspective(200px) rotateX(20deg);
+}
+
 </style>
 <body>
 
   <!-- <div style="background-color:black;"> -->
-  <div>
+  <div class="screen">
     hello
-
+  </div>
+  <div class="keyboard">
+    Yo
   </div>
   
 </body>
