@@ -27,6 +27,21 @@ html, body {
 }
 
 .container {
+  transform: perspective(700px) rotateX(40deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 1%; */
+  /* margin: 1px; */
+  width: 854px;
+  height: 598px;
+  /* border: 2px solid #FDDBC9; */
+  border: 1px solid #727379;
+  border-radius: 35px;
+  background: #FDDBC9;
+}
+
+.container-screen {
   display: flex;
   flex-direction: column;
   align-items: center;
