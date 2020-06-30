@@ -16,6 +16,9 @@ html, body {
   color: white;
 }
 
+.ultimate-container {
+  background-color: red;
+}
 
 .divisor {
   /* display: flex; */
@@ -42,6 +45,9 @@ html, body {
 }
 
 .container-screen {
+  /* transform: perspective(700px) rotateX(-40deg); */
+  transform: rotateY(10px);
+  /* transform: translateY(100px); */
   display: flex;
   flex-direction: column;
   align-items: center;
