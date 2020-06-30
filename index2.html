@@ -13,8 +13,9 @@ body {
   justify-content: center;
 }
 
-div {
-  background-color: black;
+.container {
+  position: relative;
+  background-color: orange;
   color: red;
   height: 300px;
   width: 200px;
@@ -26,7 +27,21 @@ div {
   translateY(70px); */
 }
 
+.extra {
+  height: 150px;
+  width: 200px;
+}
+
+.screen {
+  background-color: black;
+  position:absolute;
+  width: 180px;
+  right: 10px;
+}
+
 .keyboard {
+  top: 137px;
+  background-color: blue;
   position: absolute;
   transform: perspective(200px) rotateX(20deg);
 }
@@ -35,12 +50,14 @@ div {
 <body>
 
   <!-- <div style="background-color:black;"> -->
-  <div class="screen">
-    hello
-  </div>
-  <div class="keyboard">
-    Yo
-  </div>
+    <div class="container">
+      <div class="extra screen">
+        hello
+      </div>
+      <div class="extra keyboard">
+        Yo
+      </div> 
+    </div>
   
 </body>
 </html>
